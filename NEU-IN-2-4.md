@@ -1,0 +1,1 @@
+GRWM 2.4: Alle Kleidungseigenschaften optional. Auswahl Keine Angabe oder Weiß ich nicht. Freitextfelder mit separatem Auswahlmenü. Filter für Material, Wetterschutz und Wärme ergänzt. KI-Erkennung nicht neu trainiert. Vor Installation Backup erstellen.
