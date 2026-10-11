@@ -25,3 +25,6 @@ nav button{min-width:0;flex:1;font-size:20px}nav small{font-size:9px}
 
 /* GRWM 2.7: uniform theme for all choice controls */
 .grwm-choice-trigger{overflow-wrap:anywhere;white-space:normal;min-width:0}.choice-option{overflow-wrap:anywhere}.choice-dialog input{background:var(--bg);color:var(--text);border-color:var(--line)}
+
+/* GRWM 2.8 – theme-aware optional account */
+#onlineAccount .auth-wide{width:100%;margin:8px 0 12px}#onlineAccount .actions{margin-top:10px}#onlineAccount .auth-text-button{border:0;background:transparent;color:var(--accent);padding:12px 0;text-decoration:underline}#onlineAccount button:disabled{opacity:.6;cursor:wait}#authStatus{overflow-wrap:anywhere}#authUserEmail{font-weight:650;color:var(--text)}
