@@ -1,0 +1,1 @@
+GRWM 2.6: eigener Kalender-Tab mit Monatsraster, Outfit-Vorschaubildern, Planung und Getragen-Status. Themenangepasste, durchsuchbare Auswahlmenüs für manuelle Kleidungseigenschaften. Bestehende Datenbank und Backups bleiben kompatibel. Vor dem Update Backup erstellen. Erinnerungen nur beim Öffnen der App, keine Push-Benachrichtigungen.

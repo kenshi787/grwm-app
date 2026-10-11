@@ -7,3 +7,18 @@ body[data-font="rounded"]{font-family:'Trebuchet MS',ui-rounded,system-ui,sans-s
 header h1{font-size:33px}.widget{box-shadow:0 8px 24px rgba(0,0,0,.045)}.photo-tile img{transition:transform .2s ease}.photo-tile:active img{transform:scale(.97)}
 
 .ai-panel{margin:12px 0;border:1px solid var(--accent,#9c8069)}.ai-panel .actions{flex-wrap:wrap}.ai-panel button{flex:1 1 160px}.preview{object-fit:contain;background:repeating-conic-gradient(#e4e4e4 0 25%,#fff 0 50%) 50%/22px 22px}
+
+/* GRWM 2.5: Suche bei manueller Auswahl */
+.manual-option-search{display:block;width:100%;margin:8px 0 6px;box-sizing:border-box}
+
+/* GRWM 2.6 – custom selection UI and outfit calendar */
+.grwm-hidden-select{position:absolute!important;width:1px!important;height:1px!important;opacity:0!important;pointer-events:none!important}
+.grwm-choice-trigger{width:100%;padding:12px 14px;text-align:left;border-radius:12px;background:var(--bg);border:1px solid var(--line);color:var(--text);font-weight:550;min-height:46px}
+.grwm-choice-trigger:focus-visible{outline:2px solid var(--accent)}
+.choice-dialog{width:min(94vw,500px);padding:16px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:20px}
+.choice-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.choice-head h3{margin:0}.choice-options{max-height:52dvh;overflow-y:auto;display:grid;gap:6px;margin-top:12px}
+.choice-option{background:var(--bg);border:1px solid var(--line);border-radius:11px;color:var(--text);text-align:left;padding:13px;min-height:44px}.choice-option.chosen{border:2px solid var(--accent);font-weight:700}
+.calendar-head{display:flex;justify-content:space-between;align-items:center;gap:8px}.calendar-head h3{margin:0;text-transform:capitalize}.calendar-head button{font-size:25px;padding:4px 14px}
+.calendar-weekdays,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}.calendar-weekdays{margin:16px 0 8px;text-align:center;color:var(--muted);font-size:11px}
+.cal-day,.cal-blank{min-width:0;min-height:69px}.cal-day{background:var(--bg);border:1px solid var(--line);border-radius:10px;color:var(--text);padding:3px;display:flex;flex-direction:column;align-items:center;gap:2px}.cal-day.selected{outline:2px solid var(--accent)}.cal-day.today .cal-number{background:var(--accent);color:#fff;border-radius:100px;padding:1px 5px}.cal-number{font-size:12px}.cal-thumb{display:flex;align-items:center;justify-content:center;width:100%;height:36px;overflow:hidden;border-radius:5px}.cal-thumb img{width:100%;height:100%;object-fit:cover}.cal-state{font-size:11px;color:var(--accent);line-height:10px}.calendar-details{margin-top:15px;padding-top:13px;border-top:1px solid var(--line)}.calendar-details h3{margin:0 0 10px}.cal-selected-fit{display:flex;gap:12px;align-items:center}.cal-selected-fit>.cal-thumb{width:62px;height:65px;flex:none}.cal-selected-fit .sub{margin:4px 0}.calendar-details>.secondary{margin-top:12px}
+nav button{min-width:0;flex:1;font-size:20px}nav small{font-size:9px}
